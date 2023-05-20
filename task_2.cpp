@@ -15,9 +15,9 @@ int main(){
     
     std::cout << " what is your full name?" << std::endl;
     std::getline(std::cin >> std::ws, name);
-    std::cout << "what is your weight? " << std::endl;
+    std::cout << "what is your weight in kg? " << std::endl;
     std::cin >> weight ;
-    std::cout << " what is your height? " << std::endl;
+    std::cout << " what is your height in cm? " << std::endl;
     std::cin >> height ;
     
     
