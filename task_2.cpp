@@ -25,7 +25,19 @@ int main(){
     std::cout << "your height in meters is " << (double)height/100<< "m" << std::endl;
     std::cout << "Dear "<< name << " your Bmi is " << (((double)weight / (height * height)) * 10000) << std::endl;
 
-    
+    double Bmi;
+
+    std::cout << " what is your Bmi?" << std::endl;
+    std::cin >> Bmi;
+
+    if (Bmi >= (double)25.99) {
+        std::cout << "your are overweight." << std::endl;
+    } else if (Bmi <= (double)18.49) {
+        std::cout << "your are underweight." << std::endl;
+    } else {
+        std::cout << "your Bmi is Good." << std::endl;
+    }
+
     return 0;
 }
 
