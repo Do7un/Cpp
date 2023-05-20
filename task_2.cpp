@@ -9,8 +9,8 @@
 int main(){
 
     std::string name;
-    int weight;
-    int height;
+    double weight;
+    double height;
     
     
     std::cout << " what is your full name?" << std::endl;
