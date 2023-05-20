@@ -1,2 +1,2 @@
 # Cpp
-fell inlove with C++ now I'm learning from youtube shorts how to code in C++
+fell inlove with C++ now I'm learning from youtube  how to code in C++
