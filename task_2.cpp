@@ -23,7 +23,7 @@ int main(){
     
 
     std::cout << "your height in meters is " << (double)height/100<< "m" << std::endl;
-    std::cout << "Dear "<< name << " your Bmi is " << (((double)weight / (height * height)) * 1000) << std::endl;
+    std::cout << "Dear "<< name << " your Bmi is " << (((double)weight / (height * height)) * 10000) << std::endl;
 
     
     return 0;
