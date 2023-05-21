@@ -1,11 +1,11 @@
 #include <iostream>
 
+
 int main () {
 
-     using namespace std;
+    using namespace std;
 
-     string name = "Dortmond";
-
+    string name = "Dortmond";
 
      cout << name;
 
