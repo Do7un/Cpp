@@ -2,27 +2,29 @@
 #include <string>
 
 int main() {
+   using namespace std;
+    
     std::string name;
     double weight;
     double height;
 
-    std::cout << "What is your full name? " << std::endl;
-    std::getline(std::cin >> std::ws, name);
-    std::cout << "What is your weight in kg? " << std::endl;
-    std::cin >> weight;
-    std::cout << "What is your height in cm? " << std::endl;
-    std::cin >> height;
+    cout << "What is your full name? " << endl;
+    getline(cin >> ws, name);
+    cout << "What is your weight in kg? " << endl;
+    cin >> weight;
+    cout << "What is your height in cm? " << endl;
+    cin >> height;
 
-    std::cout << "Your height in meters is " << height / 100 << "m" << std::endl;
+    cout << "Your height in meters is " << height / 100 << "m" << endl;
     double bmi = weight / ((height / 100) * (height / 100));
-    std::cout << "Dear " << name << ", your BMI is " << bmi << std::endl;
+    cout << "Dear " << name << ", your BMI is " << bmi << endl;
 
     if (bmi >= 25.0) {
-        std::cout << "You are overweight." << std::endl;
+        cout << "You are overweight." << endl;
     } else if (bmi <= 18.5) {
-        std::cout << "You are underweight." << std::endl;
+        cout << "You are underweight." << endl;
     } else {
-        std::cout << name << " Your BMI is within the normal range." << std::endl;
+        cout << name << " Your BMI is within the normal range." << endl;
     }
 
     return 0;
