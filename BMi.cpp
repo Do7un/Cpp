@@ -15,7 +15,7 @@ int main() {
     cout << "What is your height in cm? " << endl;
     cin >> height;
 
-    cout << "Your height in meters is " << height / 100 << "m" << endl;
+    cout << "Your height in feets is " << height * (double)0.0328084 << "ft" << endl;
     double bmi = weight / ((height / 100) * (height / 100));
     cout << "Dear " << name << ", your BMI is " << bmi << endl;
 
