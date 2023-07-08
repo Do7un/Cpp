@@ -12,7 +12,7 @@ int main() {
     cout << "Shall we play a game of rock, paper, or scissors?" << endl;
     cout << "1 = rock, 2 = paper, and 3 = scissors" << endl;
     cout << "What is your name? ";
-    cin >> name;
+    getline(cin >> ws, name);
     cout << "1, 2, or 3? ";
     cin >> choice;
 

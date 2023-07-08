@@ -15,7 +15,7 @@ int main (){
    cout << "shall we play a game of rock, paper or scissors, 1 = rock, 2 = paper and 3 = scissors"<< endl; 
    cin >> answer;
    cout <<"what is your name?" << endl;
-   cin >> name;
+   getline(cin >> ws, name);
    cout <<"1, 2 or 3?"<< endl;
    cin >> choice;
    
