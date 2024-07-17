@@ -9,8 +9,12 @@ int main() {
     double height;
 
     cout << "What is your full name? " << endl;
-    getline(cin >> ws, name);
-    cout << "What is your weight in kg? " << endl;
+    getline(cin >> ws, name); 
+    if (name.length() == 1){
+        cout << " You didn't enter a name " << endl;
+    }
+    else{
+        cout << "What is your weight in kg? " << endl;
     cin >> weight;
     cout << "What is your height in cm? " << endl;
     cin >> height;
@@ -26,6 +30,6 @@ int main() {
     } else {
         cout << name << " Your BMI is within the normal range." << endl;
     }
-
+    }
     return 0;
 }
