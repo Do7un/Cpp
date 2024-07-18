@@ -7,9 +7,11 @@ int main() {
     std::string name;
     double weight;
     double height;
+    
 
     cout << "What is your full name? " << endl;
     getline(cin >> ws, name); 
+
     if (name.length() == 1){
         cout << " You didn't enter a name " << endl;
     }
