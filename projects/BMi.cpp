@@ -4,7 +4,7 @@
 int main() {
    using namespace std;
     
-    std::string name;
+    string name;
     double weight;
     double height;
     
